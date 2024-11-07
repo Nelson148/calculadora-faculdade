@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Inter;
+    background-image: url("https://classic.exame.com/wp-content/uploads/2022/07/GettyImages-1141323652.jpg?quality=70&strip=info&w=724");
+    background-repeat: no-repeat;
+    background-size: 2000px 1050px;
+}
+.Titulo{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%,-700%);
+    font-family:Monaco;
+}
+.entrada1{
+    margin:10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 0.5em;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%,-400%);
+}
+
+.entrada2{
+    margin:10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 0.5em;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%,-170%);
+}
+
+.botao1{
+    background-color:#007797;
+    border: none;
+    padding: 13px;
+    width: 100px;
+    border-radius: 0.5em;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-140%,50%);
+}
+
+.botao2{
+    background-color:#007797;
+    border: none;
+    padding: 13px;
+    width: 100px;
+    border-radius: 0.5em;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,50%);
+}
+
+.resultado{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%,450%);
+}
+
+.operacoes{
+    background-color:#007797;
+    border: none;
+    padding: 13px;
+    width: 100px;
+    border-radius: 0.5em;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(130%,-320%);
+}

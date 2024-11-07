@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Calculadora </title>		
+		<script src="calculadora.js"></script>
+        <link rel="stylesheet" type="text/css" href="calculador.css" media="screen" />
+	</head>
+	<body bgcolor="beige">
+		<h1 class="Titulo" >Calculadora</h1>
+        <input class="entrada1" type="text" id="txtValor1" type="text"placeholder="coloque um numero">
+        <input class="entrada2" type="text" id="txtValor2" type="text"placeholder="coloque um numero">
+        <select class="operacoes" id="operadores" onchange="ControleDeSelecao();">
+            <optgroup label="Contas">
+                <option value="+">	+(somar)</option>
+                <option value="-">	-(subtrair)</option>
+                <option value="*">	*(multiplicar)</option>
+                <option value="/">	/(dividir)</option>
+                <option value="potencia">	Potência</option>
+			</select>
+        <br><br>	
+		<input class="botao1" type="button" onclick="Calcular('txtValor1', 'txtValor2')" value="Calcular">
+        <br><br>
+		<input class="botao2" type="button" onclick="Limpar('txtValor1', 'txtValor2')" value="Limpar">
+        <br><br>
+		<p class="resultado" id="saida">Resultado:</p>
+		<hr>		
+	</body>
+</html>
